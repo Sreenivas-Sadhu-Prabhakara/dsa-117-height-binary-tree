@@ -12,6 +12,13 @@ The definition is already the algorithm: `height = 1 + max(height(left), height(
 
 **Complexity:** O(n) time, O(h) recursion.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
